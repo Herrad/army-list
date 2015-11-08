@@ -1,8 +1,144 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  	padding: 50px;
+  	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	width:1200px;
+	margin:auto;
 }
 
 a {
   color: #00B7FF;
+}
+
+h2 {
+	margin:0;
+	padding:30px 0 30px 30px;
+	border-bottom:1px solid black;
+	background-color: #ffffff;
+}
+
+h2 span {
+	float: none;
+}
+
+li {
+	list-style: none;
+}
+
+div {
+	float:left;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	margin: 0;
+	padding:0; 
+}
+
+h3 {
+	float: left;
+}
+
+h4 {
+	margin: 0;
+}
+
+span {
+	float: left;
+}
+
+div.army-segment {
+	border-right: 1px solid black;
+	width:100%;
+	background-color: #cccccc;
+}
+
+div.unit {
+	background-color: #ffffff;
+	border-right: 1px solid black;
+	border-bottom:1px solid black;
+	margin:40px 20px;
+	width:95%;
+}
+
+div.unit .options{
+	border:0;
+}
+div.unit .options  {
+	width:80%;
+	border-right: 1px solid black;
+}
+
+div.unit .options .header {
+	border:0;
+	width:100%;
+}
+
+h3.unit-name {
+	display: inline-block;
+	width:50%;
+	margin:0;
+	padding:10px 0 10px 10px;
+	border-top:0;
+	border-left:0;
+}
+
+span.base {
+	margin-top: 10px;
+		width: 48%;
+	text-align:right;
+}
+
+div.unit .extras {
+	border:0;
+	border-top: 1px solid black;
+	width:100%;
+}
+
+div.unit .extras div {
+	border:0;
+	padding:10px 0 10px 10px;
+}
+
+div.unit .extras .upgrades {
+	width: 47%;
+}
+div.unit .extras .weapons {
+	border-right: 1px solid black;
+	width:50%;
+}
+
+div.calculation {
+	float:right;
+	width:15%;
+	border:0;
+	text-align: right;
+	font-size: 22px;
+	padding:10px;
+}
+
+div.calculation select {
+	font-size: 22px;
+	height:33px;
+}
+
+div.calculation span {
+	width: 100%;
+	text-align: right;
+}
+
+div.add {
+	width: 100%;
+	border-left:0;
+	padding: 10px 0;
+	text-align: right;
+}
+
+div.add span {
+	float: right;
+	width: 100%;
+	padding-right: 10px;
+	font-size: 22px;
+	text-align: right;
+}
+
+div.add span:hover{
+	cursor: pointer;
 }
